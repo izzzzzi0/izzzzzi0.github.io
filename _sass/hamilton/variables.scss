@@ -2,13 +2,13 @@
 $base-font-family: 'Noto Sans KR', sans-serif;
 $reading-font-family: 'Noto Sans KR', sans-serif;
 $headline-font-family: 'Nanum Gothic', sans-serif;
-$code-font-family:  Inconsolata !default;
+$code-font-family:  'IBM Plex Mono', monospace;
 $handwriting-font-family: 'Space Mono', monospace;
-$base-font-size:    18px !default;
+$base-font-size:    15px !default;
 $base-line-height:  1.5 !default;
 
 // Layouts
-$spacing-unit:      2rem !default;
+$spacing-unit:      1rem !default;
 $content-width:     1100px !default;
 
 $on-small:          600px !default;

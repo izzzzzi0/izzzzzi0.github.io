@@ -58,9 +58,12 @@ hr {
 /**
  * Images
  */
+
 img {
-  max-width: 100%;
-  vertical-align: middle;
+  max-width: 95%;
+  // vertical-align: middle;
+  display: block; 
+  margin: 1.5rem auto;
 }
 
 /**
@@ -75,17 +78,23 @@ figcaption {
   margin-top: $spacing-unit / 2;
 }
 
+img + em {
+  display: block;
+  text-align: center;
+  @include relative-font-size(0.8);
+  margin-top: $spacing-unit / 2;
+}
 /**
  * Lists
  */
 ul, ol {
-  margin-left: $spacing-unit;
+  margin-left: $spacing-unit*2;
 }
 
 li {
   > ul,
   > ol {
-    margin-bottom: 0;
+    margin-bottom: 0.1rem;
   }
 }
 
