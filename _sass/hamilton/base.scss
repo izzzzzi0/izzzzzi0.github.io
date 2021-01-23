@@ -200,8 +200,8 @@ ul.task-list {
  */
 .wrapper {
   max-width: calc(#{$content-width} - (#{$spacing-unit}));
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 5%;
+  margin-left: 10%;
   padding-right: $spacing-unit / 2;
   padding-left: $spacing-unit / 2;
 
